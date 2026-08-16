@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Geffer Gypsum Decorations | Gypsum, Skimming & Painting</title>
+
+    <meta name="description"
+          content="Geffer Gypsum Decorations offers gypsum installation, skimming, interior and exterior painting, and Ruff 'n' Tuff application in Eldoret, Kisii, Nakuru and countrywide across Kenya.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f5f5;
+        }
+
+        /* NAVIGATION */
+        header {
+            background: #111;
+            padding: 12px 6%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .logo {
+            height: 70px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff1f1f;
+        }
+
+       .hero {
+    min-height: 75vh;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("./images/beautiful.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+};
+        .hero-content {
+            max-width: 850px;
+            color: white;
+        }
+
+        .hero-content h1 {
+    font-size: 52px;
+    color: #ff2222;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+    font-weight: 800;
+};
+        }
+
+        .hero-content h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+    margin-bottom: 25px;
+}
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-red {
+            background: #e60000;
+            color: white;
+        }
+
+        .btn-red:hover {
+            background: #b00000;
+            transform: translateY(-2px);
+        }
+
+        .btn-green {
+            background: #20c463;
+            color: white;
+        }
+
+        .btn-green:hover {
+            background: #149447;
+            transform: translateY(-2px);
+        }
+
+        /* GENERAL */
+        section {
+            padding: 70px 6%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 15px;
+            color: #111;
+        }
+
+        .section-title span {
+            color: #e60000;
+        }
+
+        .section-intro {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 40px;
+            color: #555;
+        }
+
+        /* ABOUT */
+        .about {
+            background: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about-image {
+            text-align: center;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            width: 420px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .about-text h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .about-text p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        /* SERVICES */
+        .services {
+            background: #eeeeee;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+            border-top: 4px solid #e60000;
+        }
+
+        .service-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .service-icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        .service-card h3 {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .service-card p {
+            color: #666;
+        }
+
+        /* LOCATIONS */
+        .locations {
+            background: white;
+            text-align: center;
+        }
+
+        .location-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .location {
+            background: #111;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        /* WHY US */
+        .why-us {
+            background: #111;
+            color: white;
+        }
+
+        .why-us .section-title {
+            color: white;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .why-card {
+            padding: 25px 15px;
+        }
+
+        .why-card h3 {
+            margin: 10px 0;
+            color: #ff2222;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: #eeeeee;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .contact-box h3 {
+            margin-bottom: 15px;
+            font-size: 25px;
+        }
+
+        .contact-item {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .contact-item a {
+            color: #e60000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #080808;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer p {
+            margin: 6px 0;
+        }
+
+        .footer-red {
+            color: #ff2222;
+            font-weight: bold;
+        }
+
+        /* FLOATING WHATSAPP */
+        .whatsapp {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #20c463;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 999;
+        }
+
+        /* MOBILE */
+        @media (max-width: 800px) {
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav ul {
+                gap: 12px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .logo {
+                height: 55px;
+            }
+
+            .hero-content h1 {
+                font-size: 38px;
+            }
+
+            .hero-content h2 {
+                font-size: 23px;
+            }
+
+            .hero-content p {
+                font-size: 17px;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                font-size: 14px;
+            }
+
+            .hero {
+                min-height: 75vh;
+            }
+            /* MOBILE IMPROVEMENTS */
+
+    header {
+        padding: 10px 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav .logo {
+        width: 70px;
+        height: auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 80vh;
+        padding: 40px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .btn {
+        display: block;
+        width: 90%;
+        max-width: 300px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .gallery-item {
+        width: 100%;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        min-height: 220px;
+        object-fit: cover;
+    }
+
+    .section-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section-intro {
+        font-size: 15px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .location-list {
+        grid-template-columns: 1fr;
+    }
+        }
+   /* ==============================
+   OUR WORK / GALLERY
+   ============================== */
+
+.gallery {
+    padding: 80px 20px;
+    background: #111;
+}
+
+.gallery .section-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.gallery .section-title span {
+    color: #ff2020;
+}
+
+.gallery .section-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #222;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    height: 280px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.08);
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 18px;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Gallery on tablets */
+@media (max-width: 900px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Gallery on phones */
+@media (max-width: 600px) {
+    .gallery {
+        padding: 60px 15px;
+    }
+
+    .gallery .section-title {
+        font-size: 32px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .gallery-item {
+        height: 260px;
+    }
+}
+/* GALLERY IMAGES */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background: #222;
+    min-height: 260px;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 18px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+}
+
+/* Phones */
+@media (max-width: 700px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: 260px;
+    }
+}
+
+   /* HERO IMPROVEMENTS */
+
+.hero {
+    background: #f5f5f5;
+    color: #222;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero h1 {
+    color: #ff1a1a;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+}
+
+.hero h2 {
+    color: #222;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-location {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-buttons .btn-red {
+    background: #ff0000;
+    color: white;
+}
+
+.hero-buttons .btn-whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.hero-buttons .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
+   </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav>
+            <img src="logo.jpeg" alt="Geffer Gypsum Decorations Logo" class="logo">
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Geffer Gypsum Decorations</h1>
+
+        <h2>You dream it, we make it.</h2>
+
+        <p>
+            Professional gypsum decoration, ceiling installation,
+            skimming, painting and Ruff 'n' Tuff finishes.
+        </p>
+
+        <p class="hero-location">
+            📍 Eldoret • Kisii • Nakuru • Nationwide Kenya
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#services" class="btn btn-red">
+                View Our Services
+            </a>
+
+            <a href="https://wa.me/254717170294"
+               class="btn btn-whatsapp"
+               target="_blank">
+                💬 WhatsApp Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <h1>Geffer Gypsum Decorations</h1>
+
+            <h2>You dream it, we make it.</h2>
+
+            <p>
+                Professional Gypsum Installation, Skimming,
+                Painting & Ruff 'n' Tuff Application.
+            </p>
+
+            <a href="#services" class="btn btn-red">
+                View Our Services
+            </a>
+
+            <a href="https://wa.me/254717170294" class="btn btn-green">
+                WhatsApp Us
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+
+            <h2 class="section-title">
+                About <span>Geffer Gypsum</span>
+            </h2>
+
+            <p class="section-intro">
+                We provide professional finishing and decoration
+                services for residential and commercial properties.
+            </p>
+
+            <div class="about-content">
+
+                <div class="about-image">
+                    <img src="logo.jpeg"
+                         alt="Geffer Gypsum Decorations">
+                </div>
+
+                <div class="about-text">
+
+                    <h3>Quality Work. Professional Finish.</h3>
+
+                    <p>
+                        Geffer Gypsum Decorations specializes in
+                        quality gypsum installation, wall skimming,
+                        interior and exterior painting, and Ruff 'n' Tuff
+                        application.
+                    </p>
+
+                    <p>
+                        We serve customers in Eldoret, Kisii and Nakuru,
+                        and we also provide services countrywide across Kenya.
+                    </p>
+
+                    <p>
+                        Our goal is simple:
+                        <strong>You dream it, we make it.</strong>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+
+            <h2 class="section-title">
+                Our <span>Services</span>
+            </h2>
+
+            <p class="section-intro">
+                Professional workmanship for homes, offices,
+                businesses and other properties.
+            </p>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Gypsum Installation</h3>
+                    <p>
+                        Professional gypsum ceiling and decorative
+                        installation for modern and attractive interiors.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🧱</div>
+                    <h3>Skimming</h3>
+                    <p>
+                        Smooth and professional wall finishing
+                        for a clean and beautiful surface.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Interior Painting</h3>
+                    <p>
+                        Quality interior painting that gives your
+                        home or business a fresh new appearance.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Exterior Painting</h3>
+                    <p>
+                        Professional exterior painting designed
+                        to improve the appearance of your property.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Ruff 'n' Tuff Application</h3>
+                    <p>
+                        Quality Ruff 'n' Tuff application for
+                        durable and attractive surfaces.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3>Complete Finishing</h3>
+                    <p>
+                        Complete finishing solutions to transform
+                        your property into a beautiful space.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+  <!-- OUR WORK / GALLERY -->
+<section class="gallery" id="gallery">
+    <div class="container">
+
+        <h2 class="section-title">
+            Our <span>Work</span>
+        </h2>
+
+        <p class="section-intro">
+            Take a look at some of our gypsum decoration,
+            ceiling, skimming, painting and Ruff 'n' Tuff projects.
+        </p>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="images/beautiful.jpeg" alt="Gypsum decoration project">
+    <div class="gallery-caption">Gypsum Decoration</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/complete.jpeg" alt="Completed gypsum project">
+                <div class="gallery-caption">Completed Project</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/corido.jpeg" alt="Gypsum corridor design">
+                <div class="gallery-caption">Corridor Design</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/corridor.jpeg" alt="Corridor gypsum work">
+                <div class="gallery-caption">Interior Gypsum Work</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/dinning.jpeg" alt="Dining room gypsum design">
+                <div class="gallery-caption">Dining Room Design</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/entrance.jpeg" alt="Entrance gypsum decoration">
+                <div class="gallery-caption">Entrance Design</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/entrance 1.jpeg" alt="Entrance decoration project">
+                <div class="gallery-caption">Modern Entrance</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/ruff n tuff.jpeg" alt="Ruff n Tuff project">
+                <div class="gallery-caption">Ruff 'n' Tuff</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/my sitting.jpeg" alt="Sitting room gypsum design">
+                <div class="gallery-caption">Sitting Room</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/naivasha.jpeg" alt="Naivasha gypsum project">
+                <div class="gallery-caption">Naivasha Project</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img1.jpeg" alt="Gypsum project">
+                <div class="gallery-caption">Gypsum Installation</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/img2.jpeg" alt="Gypsum decoration work">
+                <div class="gallery-caption">Decorative Work</div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    <!-- LOCATIONS -->
+    <section class="locations" id="locations">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Areas We <span>Serve</span>
+            </h2>
+
+            <p class="section-intro">
+                Based in Eldoret, Kisii and Nakuru.
+                We also offer countrywide services.
+            </p>
+
+            <div class="location-list">
+
+                <div class="location">📍 Eldoret</div>
+
+                <div class="location">📍 Kisii</div>
+
+                <div class="location">📍 Nakuru</div>
+
+                <div class="location">🇰🇪 Countrywide Kenya</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-us">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Why Choose <span>Us?</span>
+            </h2>
+
+            <div class="why-grid">
+
+                <div class="why-card">
+                    <div style="font-size:40px;">⭐</div>
+                    <h3>Quality Work</h3>
+                    <p>
+                        We focus on professional finishing
+                        and quality workmanship.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div style="font-size:40px;">👷</div>
+                    <h3>Professional</h3>
+                    <p>
+                        We approach every project with
+                        professionalism and attention to detail.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div style="font-size:40px;">🇰🇪</div>
+                    <h3>Countrywide</h3>
+                    <p>
+                        We can provide our services
+                        across Kenya.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div style="font-size:40px;">📞</div>
+                    <h3>Easy to Contact</h3>
+                    <p>
+                        Contact us directly by phone or WhatsApp
+                        for your project.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Contact <span>Us</span>
+            </h2>
+
+            <p class="section-intro">
+                Have a project in mind? Contact Geffer Gypsum
+                Decorations today for more information.
+            </p>
+
+            <div class="contact-grid">
+
+                <div class="contact-box">
+
+                    <h3>Get In Touch</h3>
+
+                    <div class="contact-item">
+                        📞 Phone:
+                        <a href="tel:+254717170294">
+                            0717 170294
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        📞 Phone:
+                        <a href="tel:+254788424480">
+                            0788 424480
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        💬 WhatsApp:
+                        <a href="https://wa.me/254717170294">
+                            0717 170294
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        📍 Based in:
+                        Eldoret, Kisii & Nakuru
+                    </div>
+
+                    <div class="contact-item">
+                        🇰🇪 Service Area:
+                        Countrywide Kenya
+                    </div>
+
+                </div>
+
+
+                <div class="contact-box">
+
+                    <h3>Ready to Transform Your Space?</h3>
+
+                    <p>
+                        Contact us today and let us help you
+                        turn your ideas into reality.
+                    </p>
+
+                    <br>
+
+                    <a href="tel:+254717170294"
+                       class="btn btn-red">
+                        📞 Call Us
+                    </a>
+
+                    <a href="https://wa.me/254717170294"
+                       class="btn btn-green">
+                        💬 WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p class="footer-red">
+            Geffer Gypsum Decorations
+        </p>
+
+        <p>
+            You dream it, we make it.
+        </p>
+
+        <p>
+            Gypsum • Skimming • Painting • Ruff 'n' Tuff
+        </p>
+
+        <p>
+            © 2026 Geffer Gypsum Decorations.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/254717170294"
+       class="whatsapp"
+       target="_blank"
+       aria-label="Contact Geffer Gypsum Decorations on WhatsApp">
+        💬
+    </a>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const images = document.querySelectorAll(".gallery-item img");
+
+    images.forEach(function (image) {
+
+        image.style.cursor = "pointer";
+
+        image.addEventListener("click", function () {
+
+            // Create dark background
+            const overlay = document.createElement("div");
+
+            overlay.style.position = "fixed";
+            overlay.style.top = "0";
+            overlay.style.left = "0";
+            overlay.style.width = "100%";
+            overlay.style.height = "100%";
+            overlay.style.backgroundColor = "rgba(0, 0, 0, 0.92)";
+            overlay.style.display = "flex";
+            overlay.style.alignItems = "center";
+            overlay.style.justifyContent = "center";
+            overlay.style.zIndex = "99999";
+            overlay.style.cursor = "pointer";
+            overlay.style.padding = "20px";
+            overlay.style.boxSizing = "border-box";
+
+            // Create large image
+            const fullImage = document.createElement("img");
+
+            fullImage.src = image.src;
+
+            fullImage.style.maxWidth = "90%";
+            fullImage.style.maxHeight = "90%";
+            fullImage.style.objectFit = "contain";
+            fullImage.style.borderRadius = "10px";
+            fullImage.style.boxShadow = "0 0 30px rgba(255,255,255,0.2)";
+
+            overlay.appendChild(fullImage);
+            document.body.appendChild(overlay);
+
+            // Close when clicking the image or background
+            overlay.addEventListener("click", function () {
+                overlay.remove();
+            });
+
+        });
+
+    });
+
+});
+</script>
+</body>
+</html>
